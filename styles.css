@@ -1,0 +1,70 @@
+
+
+.node text {
+  font-size: 15px;
+  text-anchor: middle;
+  alignment-baseline: middle;
+}
+
+.timer {
+  position: absolute;
+  font-size: x-large;
+  top: 10px;
+  right: 10px;
+}
+
+
+.dropbtn {
+  background-color: #808080;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  /* font-size: x-large; */
+  top: 0px;
+  left: 10px;
+  /* position: relative;
+  display: inline-block; */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 400px;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content p{
+  color: black;
+  padding: 0px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content img{
+  color: black;
+  padding: 0px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.color-scale {
+  width: 200px; /* Adjust the width as needed */
+  height: 10px; /* Adjust the height as needed */
+  background: linear-gradient(to right, hsl(0, 100%, 50%),hsl(55, 100%, 50%));
+}
